@@ -36,9 +36,11 @@
     mvn install
 
    Αν χρησιμοποιείτε Gradle:
-    ```bash
-    gradle build
-    Εκτελέστε το project μέσω του IDE ή χρησιμοποιώντας την εντολή:
+    
+   ```bash
+   gradle build
+    
+   Εκτελέστε το project μέσω του IDE ή χρησιμοποιώντας την εντολή:
 
    ```bash
    mvn spring-boot:run
