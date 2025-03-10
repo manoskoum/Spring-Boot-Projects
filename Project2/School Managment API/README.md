@@ -32,11 +32,10 @@
 
     Αν χρησιμοποιείτε Maven:
 
-    ```bash
     mvn install
 
    Αν χρησιμοποιείτε Gradle:
-    ```bash
+    
     gradle build
     Εκτελέστε το project μέσω του IDE ή χρησιμοποιώντας την εντολή:
 
