@@ -32,34 +32,37 @@
 
     Αν χρησιμοποιείτε Maven:
 
-    ```bash
     mvn install
 
    Αν χρησιμοποιείτε Gradle:
     
-   ```bash
+  ```bash
    gradle build
     
    Εκτελέστε το project μέσω του IDE ή χρησιμοποιώντας την εντολή:
 
-   ```bash
+    gradle build
+    Εκτελέστε το project μέσω του IDE ή χρησιμοποιώντας την εντολή:
+
+  
+  
    mvn spring-boot:run
    Το API θα είναι διαθέσιμο στη διεύθυνση: http://localhost:9591.
 
-   Χρήση του API
-  Ακολουθούν μερικά παραδείγματα των endpoints του API:
+    Χρήση του API
+    Ακολουθούν μερικά παραδείγματα των endpoints του API:
 
-  1. Λήψη όλων των μαθημάτων:
-  Μέθοδος: GET
-  URL: http://localhost:9591/api/school/classes
+    1. Λήψη όλων των μαθημάτων:
+    Μέθοδος: GET
+    URL: http://localhost:9591/api/school/classes
 
-  2. Δημιουργία νέου μαθήματος:
-  Μέθοδος: POST
-  URL: http://localhost:9591/api/school/classes
+    2. Δημιουργία νέου μαθήματος:
+    Μέθοδος: POST
+    URL: http://localhost:9591/api/school/classes
 
-  3. Διαγραφή μαθήματος:
-  Μέθοδος: DELETE
-  URL: http://localhost:9591/api/admin/school/classes/{classId}
+    3. Διαγραφή μαθήματος:
+    Μέθοδος: DELETE
+    URL:http://localhost:9591/api/admin/school/classes/{classId}
 
 
  
