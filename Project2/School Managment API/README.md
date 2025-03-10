@@ -16,7 +16,7 @@
 
 Ακολουθήστε τα παρακάτω βήματα για να εγκαταστήσετε και να εκτελέσετε το project:
 
-1. Κλωνοποιήστε το repository στον υπολογιστή σας:
+ 1. Κλωνοποιήστε το repository στον υπολογιστή σας:
 
    ```bash
    git clone https://github.com/manoskoum/Spring-Boot.git
@@ -34,20 +34,20 @@
 
     mvn install
 
-   Αν χρησιμοποιείτε Gradle:
+    Αν χρησιμοποιείτε Gradle:
     
-  ```bash
-   gradle build
+    ```bash
+    gradle build
     
-   Εκτελέστε το project μέσω του IDE ή χρησιμοποιώντας την εντολή:
+    Εκτελέστε το project μέσω του IDE ή χρησιμοποιώντας την εντολή:
 
     gradle build
     Εκτελέστε το project μέσω του IDE ή χρησιμοποιώντας την εντολή:
 
   
   
-   mvn spring-boot:run
-   Το API θα είναι διαθέσιμο στη διεύθυνση: http://localhost:9591.
+    mvn spring-boot:run
+    Το API θα είναι διαθέσιμο στη διεύθυνση: http://localhost:9591.
 
     Χρήση του API
     Ακολουθούν μερικά παραδείγματα των endpoints του API:
