@@ -1,6 +1,8 @@
 # School Management API
 
 ![Java](https://img.shields.io/badge/Java-17-orange) 
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3-brightgreen) 
+![License: MIT](https://img.shields.io/badge/License-MIT-blue)
 
 ## 📌 Overview
 The **School Management API** is a RESTful web service built with **Spring Boot**.  
