@@ -65,6 +65,7 @@ The project uses **DTO mapping**, **Jakarta Validation**, and includes **data in
    cd Spring-Boot/Project2/school-managment-api
 
 3.Run the application:
+   
    ```bash  
    mvn spring-boot:run
 
