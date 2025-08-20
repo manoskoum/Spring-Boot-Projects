@@ -100,7 +100,7 @@ The project uses **DTO mapping**, **Jakarta Validation**, and includes **data in
 | POST   | `/api/school/classes`            | Create class    |
 | DELETE | `/api/admin/school/classes/{id}` | Delete class    |
 
-🧪 Testing
+## 🧪 Testing
 
 Access the H2 database console at:
 👉 http://localhost:9591/h2-console
@@ -109,11 +109,11 @@ Default JDBC URL: jdbc:h2:mem:testdb
 
 testdb
 
-📄 License
+## 📄 License
 
 This project is licensed under the MIT License.
 Feel free to use, modify, and distribute.
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Developed by Emmanouil Koumentakis
