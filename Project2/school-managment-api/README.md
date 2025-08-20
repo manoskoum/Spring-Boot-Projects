@@ -55,9 +55,11 @@ The project uses **DTO mapping**, **Jakarta Validation**, and includes **data in
 📡 API Endpoints
 Students
 
-Method	   Endpoint	            Description
-GET	      /api/students	        Get all students
-GET	      /api/students/{id}	  Get student by ID
-POST	    /api/students	        Create student
-PUT	      /api/students/{id}	  Update student
-DELETE	  /api/students/{id}	  Delete student
+### 👩‍🎓 Students
+| Method | Endpoint              | Description           |
+|-------:|-----------------------|-----------------------|
+| GET    | `/api/students`       | Get all students      |
+| GET    | `/api/students/{id}`  | Get student by ID     |
+| POST   | `/api/students`       | Create student        |
+| PUT    | `/api/students/{id}`  | Update student        |
+| DELETE | `/api/students/{id}`  | Delete student        |
