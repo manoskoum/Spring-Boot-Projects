@@ -60,7 +60,7 @@ The project uses **DTO mapping**, **Jakarta Validation**, and includes **data in
    ```bash
    git clone https://github.com/manoskoum/Spring-Boot.git
 
-2.Navigate to the project:
+2. Navigate to the project:
    ```bash
    cd Spring-Boot/Project2/school-managment-api
 
