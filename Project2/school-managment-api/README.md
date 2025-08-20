@@ -69,7 +69,7 @@ The project uses **DTO mapping**, **Jakarta Validation**, and includes **data in
  The API will start on:
 👉 http://localhost:9591  
 
-📡 API Endpoints
+## 📡 API Endpoints
 
 ### 👩‍🎓 Students
 | Method | Endpoint                                | Description           |
