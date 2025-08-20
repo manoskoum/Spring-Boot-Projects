@@ -59,9 +59,9 @@ This project uses **Spring Data JPA**, **Hibernate**, and an **H2 in-memory data
    ```bash
    git clone https://github.com/manoskoum/Spring-Boot.git
 
-2. Navigate to the project:
-
-cd Spring-Boot/Project2/userloginform
+2. Run the application:
+   ```bash
+   cd Spring-Boot/Project2/userloginform
 
 3. Run the application:
    ```bash
