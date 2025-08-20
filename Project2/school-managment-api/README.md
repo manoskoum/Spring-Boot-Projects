@@ -1,24 +1,36 @@
 # School Management API
 
-## Description
 ## 📌 Overview
 The **School Management API** is a RESTful web service built with **Spring Boot**.  
-It provides endpoints for managing students, teachers, and courses within a school environment.  
-This project is designed as a backend service and can be used as the foundation for a school management system.
+It allows managing students, professors, and classes, with additional functionality for **enrolling students into classes** and **assigning professors to classes**.  
+The project uses **DTO mapping**, **Jakarta Validation**, and includes **data initialization** on startup with an in-memory **H2 database**.
+
+---
 
 ## ⚙️ Technologies
-- **Java 17+**
-- **Spring Boot**
-- **Spring Data JPA**
-- **Hibernate**
-- **H2 Database**
-- **Maven**
+- Java 17+
+- Spring Boot 3
+- Spring Data JPA & Hibernate
+- H2 Database (in-memory for development)
+- Lombok
+- Jakarta Validation
 
-  ## ✨ Features
-- 👩‍🎓 **Students**: Create, Read, Update, Delete  
-- 👨‍🏫 **Teachers**: Create, Read, Update, Delete  
-- 📚 **Courses**: Create, Read, Update, Delete  
-- Relational mapping between **Students ↔ Courses ↔ Teachers**
+---
+
+## ✨ Features
+- 👩‍🎓 **Students**
+  - Create, Read, Update, Delete
+  - Enroll/Unenroll in classes
+- 👨‍🏫 **Professors**
+  - Create, Read, Update, Delete
+  - Assign/Unassign to classes
+- 📚 **Classes**
+  - Create, Read, Delete
+  - Linked with students & professors
+- 🛠 **Extras**
+  - DTO mapping for cleaner responses
+  - Validation with Jakarta
+  - Seed data via `DataInitializer`
 
   ## 🚀 Getting Started
 
@@ -30,3 +42,22 @@ This project is designed as a backend service and can be used as the foundation 
 1. Clone the repository:
    ```bash
    git clone https://github.com/manoskoum/Spring-Boot.git
+
+2.Navigate to the project:
+   cd Spring-Boot/Project2/school-managment-api
+
+3.Run the application:   
+   mvn spring-boot:run
+
+ The API will start on:
+👉 http://localhost:9591  
+
+📡 API Endpoints
+Students
+
+Method	   Endpoint	            Description
+GET	      /api/students	        Get all students
+GET	      /api/students/{id}	  Get student by ID
+POST	    /api/students	        Create student
+PUT	      /api/students/{id}	  Update student
+DELETE	  /api/students/{id}	  Delete student
