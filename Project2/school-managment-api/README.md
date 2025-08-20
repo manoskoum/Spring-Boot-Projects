@@ -4,6 +4,19 @@
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3-brightgreen) 
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue)
 
+## 📑 Table of Contents
+- [Overview](#-overview)
+- [Technologies](#-technologies)
+- [Features](#-features)
+- [Getting Started](#-getting-started)
+- [API Endpoints](#-api-endpoints)
+  - [Students](#students)
+  - [Professors](#professors)
+  - [Classes](#classes)
+- [Testing](#-testing)
+- [License](#-license)
+- [Author](#-author)
+
 ## 📌 Overview
 The **School Management API** is a RESTful web service built with **Spring Boot**.  
 It allows managing students, professors, and classes, with additional functionality for **enrolling students into classes** and **assigning professors to classes**.  
