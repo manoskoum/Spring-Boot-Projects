@@ -56,22 +56,26 @@ The project uses **DTO mapping**, **Jakarta Validation**, and includes **data in
 Students
 
 ### 👩‍🎓 Students
-| Method | Endpoint              | Description           |
-|-------:|-----------------------|-----------------------|
-| GET    | `/api/students`       | Get all students      |
-| GET    | `/api/students/{id}`  | Get student by ID     |
-| POST   | `/api/students`       | Create student        |
-| PUT    | `/api/students/{id}`  | Update student        |
-| DELETE | `/api/students/{id}`  | Delete student        |
+| Method | Endpoint                                | Description           |
+|-------:|-----------------------------------------|-----------------------|
+| GET    | `/api/students`                         | Get all students      |
+| GET    | `/api/students/{id}`                    | Get student by ID     |
+| POST   | `/api/students`                         | Create student        |
+| PUT    | `/api/students/{id}`                    | Update student        |
+| DELETE | `/api/students/{id}`                    | Delete student        |
+| POST   | `/enroll/{studentId}/classes/{classId}` | Enroll  to class      |
+| DELETE | `/enroll/{studentId}/classes/{classId}` | Unenroll from class   |   
 
 ### 👨‍🏫 Professors
-| Method | Endpoint                        | Description               |
-|-------:|---------------------------------|---------------------------|
-| GET    | `/api/professors`               | Get all professors        |
-| GET    | `/api/professors/{id}`          | Get professor by ID       |
-| POST   | `/api/professors`               | Create professor          |
-| PUT    | `/api/professors/{id}`          | Update professor          |
-| DELETE | `/api/professors/{id}`          | Delete professor          |
+| Method | Endpoint                                             | Description               |
+|-------:|------------------------------------------------------|---------------------------|
+| GET    | `/api/professors`                                    | Get all professors        |
+| GET    | `/api/professors/{id}`                               | Get professor by ID       |
+| POST   | `/api/professors`                                    | Create professor          |
+| PUT    | `/api/professors/{id}`                               | Update professor          |
+| DELETE | `/api/professors/{id}`                               | Delete professor          |
+| POST   | `/enroll/professors/{professorId}/classes/{classId}` | Assign to class           |
+| DELETE | `/enroll/professors/{professorId}/classes/{classId}` | Unassign from class       |
 
 ### 📚 Classes
 | Method | Endpoint                         | Description     |
@@ -79,3 +83,21 @@ Students
 | GET    | `/api/school/classes`            | Get all classes |
 | POST   | `/api/school/classes`            | Create class    |
 | DELETE | `/api/admin/school/classes/{id}` | Delete class    |
+
+🧪 Testing
+
+Access the H2 database console at:
+👉 http://localhost:9591/h2-console
+
+Default JDBC URL: jdbc:h2:mem:testdb
+
+testdb
+
+📄 License
+
+This project is licensed under the MIT License.
+Feel free to use, modify, and distribute.
+
+👨‍💻 Author
+
+Developed by Emmanouil Koumentakis
