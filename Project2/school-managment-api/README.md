@@ -70,7 +70,6 @@ The project uses **DTO mapping**, **Jakarta Validation**, and includes **data in
 👉 http://localhost:9591  
 
 📡 API Endpoints
-Students
 
 ### 👩‍🎓 Students
 | Method | Endpoint                                | Description           |
