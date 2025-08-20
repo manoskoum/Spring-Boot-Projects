@@ -29,4 +29,4 @@ This project is designed as a backend service and can be used as the foundation 
   ### Installation & Run
 1. Clone the repository:
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/manoskoum/Spring-Boot.git
