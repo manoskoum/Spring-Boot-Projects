@@ -63,3 +63,19 @@ Students
 | POST   | `/api/students`       | Create student        |
 | PUT    | `/api/students/{id}`  | Update student        |
 | DELETE | `/api/students/{id}`  | Delete student        |
+
+### 👨‍🏫 Professors
+| Method | Endpoint                        | Description               |
+|-------:|---------------------------------|---------------------------|
+| GET    | `/api/professors`               | Get all professors        |
+| GET    | `/api/professors/{id}`          | Get professor by ID       |
+| POST   | `/api/professors`               | Create professor          |
+| PUT    | `/api/professors/{id}`          | Update professor          |
+| DELETE | `/api/professors/{id}`          | Delete professor          |
+
+### 📚 Classes
+| Method | Endpoint                         | Description     |
+|-------:|----------------------------------|-----------------|
+| GET    | `/api/school/classes`            | Get all classes |
+| POST   | `/api/school/classes`            | Create class    |
+| DELETE | `/api/admin/school/classes/{id}` | Delete class    |
