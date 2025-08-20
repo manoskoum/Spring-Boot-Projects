@@ -1,5 +1,7 @@
 # School Management API
 
+![Java](https://img.shields.io/badge/Java-17-orange) 
+
 ## 📌 Overview
 The **School Management API** is a RESTful web service built with **Spring Boot**.  
 It allows managing students, professors, and classes, with additional functionality for **enrolling students into classes** and **assigning professors to classes**.  
