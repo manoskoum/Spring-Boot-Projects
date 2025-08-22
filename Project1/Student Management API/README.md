@@ -60,7 +60,7 @@ PUT /api/students/{id} – update student
 
 DELETE /api/students/{id} – delete student
 
-📨 Request Examples
+## 📨 Request Examples
 
 Create (POST)
 
@@ -84,6 +84,7 @@ Update (PUT)
   "message": "Student not found with id: 99",
   "status": "NOT_FOUND"
 }
+
 
 
 
