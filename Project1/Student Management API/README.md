@@ -21,7 +21,7 @@ RESTful API for managing students (CRUD, search, pagination & sorting).
 - **Mapper**: `StudentMapper` for DTO ↔ Entity.
 
 ## 🗃️ MySQL Setup (run once)
-```sql
+
 CREATE DATABASE IF NOT EXISTS tododb
   CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
 
@@ -72,6 +72,7 @@ Update (PUT)
   "message": "Student not found with id: 99",
   "status": "NOT_FOUND"
 }
+
 
 
 
