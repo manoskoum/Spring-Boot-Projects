@@ -25,13 +25,26 @@ RESTful API for managing students (CRUD, search, pagination & sorting).
 CREATE DATABASE IF NOT EXISTS tododb
    ```
 
-  
-## 🚀 Run
+  ## 🚀 Run
 
-git clone https://github.com/manoskoum/Spring-Boot.git
-cd Spring-Boot/Project1/Student\ Management\ API
-mvn clean install
-mvn spring-boot:run
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/manoskoum/Spring-Boot.git
+    ```
+
+2. Run the application:
+
+    ```bash
+    cd Spring-Boot/Project1/userloginform
+    ```
+
+3. Run the application:
+
+    ```bash
+    mvn spring-boot:run
+    ```
 
 
 📚 API Endpoints
@@ -71,6 +84,7 @@ Update (PUT)
   "message": "Student not found with id: 99",
   "status": "NOT_FOUND"
 }
+
 
 
 
