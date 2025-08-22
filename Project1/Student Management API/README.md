@@ -47,7 +47,7 @@ CREATE DATABASE IF NOT EXISTS tododb
     ```
 
 
-📚 API Endpoints
+## 📚 API Endpoints
 GET /api/students – list students (paginated)
 
 GET /api/students/{id} – get student by ID
@@ -84,6 +84,7 @@ Update (PUT)
   "message": "Student not found with id: 99",
   "status": "NOT_FOUND"
 }
+
 
 
 
