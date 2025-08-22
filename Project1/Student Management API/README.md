@@ -23,6 +23,7 @@ RESTful API for managing students (CRUD, search, pagination & sorting).
 ## 🗃️ MySQL Setup (run once)
 ~~~sql
 CREATE DATABASE IF NOT EXISTS tododb
+~~~
 
   
 ## 🚀 Run
@@ -70,6 +71,7 @@ Update (PUT)
   "message": "Student not found with id: 99",
   "status": "NOT_FOUND"
 }
+
 
 
 
