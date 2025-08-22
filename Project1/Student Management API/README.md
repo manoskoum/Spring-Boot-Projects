@@ -21,12 +21,9 @@ RESTful API for managing students (CRUD, search, pagination & sorting).
 - **Mapper**: `StudentMapper` for DTO ↔ Entity.
 
 ## 🗃️ MySQL Setup (run once)
-
-CREATE DATABASE IF NOT EXISTS tododb
-  CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
-
-server.port=9090
-
+```sql
+CREATE DATABASE IF NOT EXISTS studentdb;
+  
 ## 🚀 Run
 
 git clone https://github.com/manoskoum/Spring-Boot.git
@@ -72,6 +69,7 @@ Update (PUT)
   "message": "Student not found with id: 99",
   "status": "NOT_FOUND"
 }
+
 
 
 
