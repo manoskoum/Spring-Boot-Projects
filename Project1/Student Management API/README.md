@@ -1,49 +1,56 @@
 # Student Management API
 
-Το **Student Management API** είναι μια RESTful εφαρμογή βασισμένη στο **Spring Boot**, η οποία επιτρέπει τη διαχείριση φοιτητών. Οι χρήστες μπορούν να δημιουργούν, να επεξεργάζονται και να διαγράφουν φοιτητές μέσω HTTP αιτημάτων.
+RESTful API for managing students (CRUD, search, pagination & sorting).
 
 ## Τεχνολογίες
 - Java 17+
 - Spring Boot
 - Spring Data JPA
 - Hibernate
-- H2 Database
+- MySQL 8+
+- Jakarta Bean Validation
 - Lombok
 - Maven
 
-## Αρχιτεκτονική & Σχεδιαστικές Αποφάσεις
-- **Controller Layer:** Διαχειρίζεται τα HTTP αιτήματα και δρομολογεί τις κλήσεις στην επιχειρηματική λογική.
-- **Service Layer:** Περιέχει την επιχειρηματική λογική και συντονίζει τις κλήσεις προς τη βάση δεδομένων.
-- **Repository Layer:** Επικοινωνεί με τη βάση δεδομένων μέσω του Spring Data JPA.
-- **Global Exception Handling:** Εξασφαλίζει ομοιόμορφη διαχείριση λαθών σε όλο το API.
+## 🏗 Architecture
+- **Controller layer**: HTTP routing.
+- **Service layer**: business logic & transactions.
+- **Repository layer**: DB access with Spring Data JPA.
+- **DTOs**: `StudentRequestDTO` / `StudentResponseDTO`.
+- **Global Exception Handling**: consistent error responses.
+- **Mapper**: `StudentMapper` for DTO ↔ Entity.
 
-## Οδηγίες Εγκατάστασης
+## 🗃️ MySQL Setup (run once)
+```sql
+CREATE DATABASE IF NOT EXISTS tododb
+  CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
+
+server.port=9090
+
+## 🚀 Run
 ```bash
 git clone https://github.com/manoskoum/Spring-Boot.git
 cd Spring-Boot/Project1/Student\ Management\ API
 mvn clean install
 mvn spring-boot:run
 
-Αφού εκτελέσετε τις παραπάνω εντολές, η εφαρμογή θα είναι διαθέσιμη στη διεύθυνση:
- http://localhost:9090/api/students
 
-API Endpoints
-GET /api/students
-Εμφάνιση όλων των φοιτητών
+📚 API Endpoints
+GET /api/students – list students (paginated)
 
-GET /api/students/{id}
-Εμφάνιση δεδομένων φοιτητή με βάση το ID
+GET /api/students/{id} – get student by ID
 
-POST /api/students
-Δημιουργία νέας καταχώρησης φοιτητή
+GET /api/students/search/{lastName} – search by last name (contains, case-insensitive)
 
-PUT /api/students/{id}
-Ενημέρωση υπάρχουσας καταχώρησης φοιτητή
+POST /api/students – create student
 
-DELETE /api/students/{id}
-Διαγραφή καταχώρησης φοιτητή
+PUT /api/students/{id} – update student
 
-Παράδειγμα JSON για αίτημα POST:
+DELETE /api/students/{id} – delete student
+
+📨 Request Examples
+
+Create (POST)
 
 {
  "firstname": "Manolis",
@@ -51,16 +58,21 @@ DELETE /api/students/{id}
  "age": 27
 }
 
-Ανάπτυξη & Δοκιμές
+Update (PUT)
 
-Postman: Μπορείτε να χρησιμοποιήσετε το Postman για να στείλετε αιτήματα στο API, π.χ. στο http://localhost:9090/api/students.
+{
+  "firstName": "Maria",
+  "lastName": "Kallergi",
+  "age": 22
+}
 
-H2 Console: Για debugging και δοκιμές, η H2 κονσόλα είναι διαθέσιμη στο:
- http://localhost:9090/h2-console
+❗ Error Example
 
-Επικοινωνία:
+{
+  "message": "Student not found with id: 99",
+  "status": "NOT_FOUND"
+}
 
-Όνομα: Eμμανουηλ Κουμεντακης
-Email: manoskoume@gmail.com
-LinkedIn: 
-GitHub: 
+
+
+
