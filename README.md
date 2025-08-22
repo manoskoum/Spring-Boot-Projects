@@ -6,7 +6,7 @@ This repository contains various projects based on Spring Boot.  Each project ha
 
 ### 1. [Student Management API](./Project1/Student%20Management%20API)
    - **Description**: RESTful API for managing students.
-   - **Technologies**: Spring Boot, Spring Data JPA, Hibernate, H2 Database.
+   - **Technologies**: Spring Boot, Spring Data JPA, Hibernate, MYSQL Database.
 
 ### 2. [School Management API](./Project1/Student%20Management%20API)
    - **Description**: RESTful API for managing courses, students, and teachers in a school environment.
