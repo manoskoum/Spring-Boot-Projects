@@ -2,7 +2,7 @@
 
 RESTful API for managing students (CRUD, search, pagination & sorting).
 
-## Tecnholgies
+## 🔧 Tech Stack
 - Java 17+
 - Spring Boot
 - Spring Data JPA
@@ -72,6 +72,7 @@ Update (PUT)
   "message": "Student not found with id: 99",
   "status": "NOT_FOUND"
 }
+
 
 
 
