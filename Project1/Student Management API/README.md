@@ -2,7 +2,7 @@
 
 RESTful API for managing students (CRUD, search, pagination & sorting).
 
-## Τεχνολογίες
+## Tecnholgies
 - Java 17+
 - Spring Boot
 - Spring Data JPA
@@ -28,7 +28,7 @@ CREATE DATABASE IF NOT EXISTS tododb
 server.port=9090
 
 ## 🚀 Run
-```bash
+
 git clone https://github.com/manoskoum/Spring-Boot.git
 cd Spring-Boot/Project1/Student\ Management\ API
 mvn clean install
@@ -72,6 +72,7 @@ Update (PUT)
   "message": "Student not found with id: 99",
   "status": "NOT_FOUND"
 }
+
 
 
 
