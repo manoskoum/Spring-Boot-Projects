@@ -46,19 +46,21 @@ CREATE DATABASE IF NOT EXISTS tododb
     mvn spring-boot:run
     ```
 
+ Base URL: http://localhost:9090
+
 
 ## 📚 API Endpoints
-GET /api/students – list students (paginated)
+-GET /api/students – list students (paginated)
 
-GET /api/students/{id} – get student by ID
+-GET /api/students/{id} – get student by ID
 
-GET /api/students/search/{lastName} – search by last name (contains, case-insensitive)
+-GET /api/students/search/{lastName} – search by last name (contains, case-insensitive)
 
-POST /api/students – create student
+-POST /api/students – create student
 
-PUT /api/students/{id} – update student
+-PUT /api/students/{id} – update student
 
-DELETE /api/students/{id} – delete student
+-DELETE /api/students/{id} – delete student
 
 ## 📨 Request Examples
 
@@ -84,6 +86,7 @@ Update (PUT)
   "message": "Student not found with id: 99",
   "status": "NOT_FOUND"
 }
+
 
 
 
