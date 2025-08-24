@@ -37,6 +37,7 @@ Maven (build tool)
 
 ## 📡 API Endpoints
 ➕ Addition
+GET /add?nums=10&nums=5&nums=3
 
 ➖ Subtraction
 
