@@ -22,3 +22,20 @@ It also includes global exception handling with meaningful error messages for in
 -Centralized error handling via GlobalExceptionHandler
 
 -JSON error responses with HTTP status codes
+
+## 🛠️ Technologies Used
+
+Java 17+
+
+Spring Boot 3+
+
+Spring Web / Spring MVC
+
+Spring Validation (Jakarta Validation API)
+
+Maven (build tool)
+
+## 📡 API Endpoints
+➕ Addition
+
+
