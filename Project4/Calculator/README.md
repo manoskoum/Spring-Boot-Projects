@@ -65,9 +65,9 @@ Maven (build tool)
 Examples of error responses:
 
 **Empty List**
-```json
-{ "message": "List must not be empty",
-  "status": "BAD_REQUEST" }
+
+'{ "message": "List must not be empty",
+  "status": "BAD_REQUEST" }'
 
 **Division by Zero**
 ```json
