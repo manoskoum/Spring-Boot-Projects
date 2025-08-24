@@ -17,8 +17,8 @@ This repository contains various projects based on Spring Boot.  Each project ha
   - **Technologies**: Spring Boot, Spring Data JPA, Hibernate, H2 Database.
 
 ### 4. [Rest Calculator API](./Project1/Student%20Management%20API)
- - **Description**: 
-  - **Technologies**: Spring Boot
+  - **Description**: A simple REST API Calculator built with Spring Boot, providing basic arithmetic operations
+  - **Technologies**: Java 17+, Spring Boot, Spring MVC
 
 
  
