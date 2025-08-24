@@ -13,15 +13,15 @@ It also includes global exception handling with meaningful error messages for in
 
 ## 🚀 Features
 
--REST endpoints for arithmetic operations
+REST endpoints for arithmetic operations
 
--Input validation using @Validated and javax.validation annotations
+Input validation using @Validated and javax.validation annotations
 
--Custom exceptions (ResourceNotFoundException)
+Custom exceptions (ResourceNotFoundException)
 
--Centralized error handling via GlobalExceptionHandler
+Centralized error handling via GlobalExceptionHandler
 
--JSON error responses with HTTP status codes
+JSON error responses with HTTP status codes
 
 ## 🛠️ Technologies Used
 
