@@ -69,17 +69,14 @@ Examples of error responses:
   "status": "BAD_REQUEST" }`
 
 **Division by Zero**
-```json
-{
-  "message": "Division by zero is not allowed",
-  "status": "BAD_REQUEST"
-}
+`{ "message": ""Division by zero is not allowed",
+  "status": "BAD_REQUEST" }`
 
 **Unexpected Error**
-{
+`{
   "message": "Unexpected error",
   "status": "INTERNAL_SERVER_ERROR"
-}
+}`
 
 
 
