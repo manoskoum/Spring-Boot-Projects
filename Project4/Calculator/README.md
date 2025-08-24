@@ -38,4 +38,10 @@ Maven (build tool)
 ## 📡 API Endpoints
 ➕ Addition
 
+➖ Subtraction
+
+✖️ Multiplication
+
+➗ Division
+
 
