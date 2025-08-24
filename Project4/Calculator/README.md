@@ -39,14 +39,26 @@ Maven (build tool)
 ### ➕ Addition
 `GET /add?nums=10&nums=5&nums=3`
 
+**Response:**
+`18.0`
+
 ### ➖ Subtraction
 `GET /sub?nums=10&nums=4`
+
+**Response:**
+`6.0`
 
 ### ✖️ Multiplication
 `GET /mult?nums=2&nums=3&nums=4`
 
+**Response:**
+`24.0`
+
 ### ➗ Division
 `GET /dia?nums=20&nums=4`
+
+**Response:**
+`5.0`
 
 ## ⚠️ Error Handling
 
