@@ -1,1 +1,24 @@
+## 🧮 Calculator REST API
+A simple Spring Boot REST API that performs basic arithmetic operations:
 
+- ➕ Addition
+
+- ➖ Subtraction
+
+- ✖️ Multiplication
+
+- ➗ Division
+
+It also includes global exception handling with meaningful error messages for invalid inputs, division by zero, and missing resources.
+
+## 🚀 Features
+
+-REST endpoints for arithmetic operations
+
+-Input validation using @Validated and javax.validation annotations
+
+-Custom exceptions (ResourceNotFoundException)
+
+-Centralized error handling via GlobalExceptionHandler
+
+-JSON error responses with HTTP status codes
