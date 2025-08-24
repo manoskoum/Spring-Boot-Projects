@@ -66,7 +66,21 @@ Examples of error responses:
 
 **Empty List**
 ```json
-{ "message": "List must not be empty", "status": "BAD_REQUEST" }
+{ "message": "List must not be empty",
+  "status": "BAD_REQUEST" }
+
+**Division by Zero**
+```json
+{
+  "message": "Division by zero is not allowed",
+  "status": "BAD_REQUEST"
+}
+
+**Unexpected Error**
+{
+  "message": "Unexpected error",
+  "status": "INTERNAL_SERVER_ERROR"
+}
 
 
 
