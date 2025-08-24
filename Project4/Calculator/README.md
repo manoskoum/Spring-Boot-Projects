@@ -36,24 +36,25 @@ Spring Validation (Jakarta Validation API)
 Maven (build tool)
 
 ## 📡 API Endpoints
-➕ Addition
-GET /add?nums=10&nums=5&nums=3
+### ➕ Addition
+`GET /add?nums=10&nums=5&nums=3`
 
-➖ Subtraction
+### ➖ Subtraction
+`GET /sub?nums=10&nums=4`
 
-✖️ Multiplication
+### ✖️ Multiplication
+`GET /mult?nums=2&nums=3&nums=4`
 
-➗ Division
+### ➗ Division
+`GET /dia?nums=20&nums=4`
 
 ## ⚠️ Error Handling
 
 Examples of error responses:
 
-Empty List
-{
-  "message": "List must not be empty",
-  "status": "BAD_REQUEST"
-}
+**Empty List**
+```json
+{ "message": "List must not be empty", "status": "BAD_REQUEST" }
 
 
 
