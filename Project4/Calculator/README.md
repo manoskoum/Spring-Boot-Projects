@@ -44,4 +44,15 @@ Maven (build tool)
 
 ➗ Division
 
+## ⚠️ Error Handling
+
+Examples of error responses:
+
+Empty List
+{
+  "message": "List must not be empty",
+  "status": "BAD_REQUEST"
+}
+
+
 
