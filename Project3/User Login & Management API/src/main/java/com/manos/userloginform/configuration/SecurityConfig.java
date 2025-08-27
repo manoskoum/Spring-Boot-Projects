@@ -27,10 +27,11 @@ public class SecurityConfig {
                 )
                 .headers(headers -> headers
                         .frameOptions(frame -> frame.disable())
-                )// για H2 console
+                )
 
                 .formLogin(form -> form.disable()); // <-- αυτό είναι το σημαντικό κομμάτι
 
         return http.build();
     }
 }
+
