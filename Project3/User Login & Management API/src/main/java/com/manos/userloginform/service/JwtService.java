@@ -15,7 +15,7 @@ import static javax.crypto.Cipher.SECRET_KEY;
 @Service
 public class JwtService {
 
-    private final String secret = "mySuperSecretKeyForJwtSigning123456"; // τουλάχιστον 32 χαρακτήρες
+    private final String secret = "mySuperSecretKeyForJwtSigning123456"; 
     private final SecretKey key = Keys.hmacShaKeyFor(secret.getBytes(StandardCharsets.UTF_8));
 
 
@@ -29,3 +29,4 @@ public class JwtService {
 
     }
 }
+
