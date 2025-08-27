@@ -16,7 +16,7 @@ This repository contains various projects based on Spring Boot.  Each project ha
   - **Description**: RESTful API built with Spring Boot that provides user registration, login (authentication), and user management (CRUD).
   - **Technologies**: Spring Boot, Spring Data JPA, Hibernate, H2 Database.
 
-### 4. [Rest Calculator API](./Project1/Student%20Management%20API)
+### 4. [Rest API Calculator](./Project1/Student%20Management%20API)
   - **Description**: A simple REST API Calculator built with Spring Boot, providing basic arithmetic operations
   - **Technologies**: Java 17+, Spring Boot, Spring MVC
 
