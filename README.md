@@ -20,7 +20,7 @@ This repository contains various projects based on Spring Boot.  Each project ha
   - **Description**: A simple REST API Calculator built with Spring Boot, providing basic arithmetic operations
   - **Technologies**: Java 17+, Spring Boot, Spring MVC
 
-### 5. [Auth Demo Spring Boot](./Project1/Student%20Management%20API)
+### 5. [Auth Demo Spring Boot](./Project5/auth-demo-springboot)
 
 - **Description**: Simple authentication web app with user registration, login, and session management.
 
