@@ -28,5 +28,5 @@ It demonstrates how to integrate **Spring Security** with a MySQL database and T
 ![Register](./screenshots/register.png)
 
 ### 🏠 Home Page
-![Home](./screenshots/welcome.png)
+![Home](./screenshots/home.png)
 
